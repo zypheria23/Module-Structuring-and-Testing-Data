@@ -14,10 +14,14 @@ const lastSlashIndex = filePath.lastIndexOf("/");
 const base = filePath.slice(lastSlashIndex + 1);
 console.log(`The base part of ${filePath} is ${base}`);
 
-// Create a variable to store the dir part of the filePath variable
+// result should print = ""/Users/mitch/cyf/Module-JS1/week-1/interpret"
+const dir = filePath.slice(0, lastSlashIndex);
+
+// result should print = ".txt"
+const ext = filePath.slice(filePath.lastIndexOf("."));
+
+// Create a variable to store the dir part of the filePath variable -- 
 // Create a variable to store the ext part of the variable
 
-const dir = ;
-const ext = ;
 
 // https://www.google.com/search?q=slice+mdn
