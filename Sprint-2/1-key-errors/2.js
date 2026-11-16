@@ -1,6 +1,6 @@
 
 // Predict and explain first BEFORE you run any code...
-
+// A: The function is supposed to return the squared value of the input number. However, the current code 
 // this function should square any number but instead we're going to get an error
 
 // =============> write your prediction of the error here
