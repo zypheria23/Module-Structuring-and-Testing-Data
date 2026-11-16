@@ -1,7 +1,7 @@
 // Predict and explain first...
 
 // =============> write your prediction here
-// A: inside the function, 'console.log(a * b)' will only display the output of multiplying the 2 number inputs but the resulting value cannot be stored so that it can still be used in other parts of the function or code.
+// A: inside the function, 'console.log(a * b)' will only display the output of multiplying the 2 number inputs but the resulting value cannot be stored so that it can still be used in other parts of the functions.
 
 // ==== original code ====
 // function multiply(a, b) {
