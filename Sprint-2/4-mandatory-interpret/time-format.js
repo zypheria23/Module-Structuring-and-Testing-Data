@@ -11,24 +11,27 @@ function formatTimeDisplay(seconds) {
   return `${pad(totalHours)}:${pad(remainingMinutes)}:${pad(remainingSeconds)}`;
 }
 
+console.log(formatTimeDisplay(61)); // time 00:01:01
+
 // You will need to play computer with this example - use the Python Visualiser https://pythontutor.com/visualize.html#mode=edit
 // to help you answer these questions
 
 // Questions
 
 // a) When formatTimeDisplay is called how many times will pad be called?
-// =============> write your answer here
+// =============> write your answer here: 3
 
 // Call formatTimeDisplay with an input of 61, now answer the following:
+// =============> time display - 00:01:01
 
 // b) What is the value assigned to num when pad is called for the first time?
-// =============> write your answer here
+// =============> write your answer here: 0
 
 // c) What is the return value of pad is called for the first time?
-// =============> write your answer here
+// =============> write your answer here: 00 , padded up to 2 spaces
 
 // d) What is the value assigned to num when pad is called for the last time in this program?  Explain your answer
-// =============> write your answer here
+// =============> write your answer here: 1 - There is 1 remaining second after dividing the original number by 60 to get the number of minutes
 
 // e) What is the return value assigned to num when pad is called for the last time in this program?  Explain your answer
-// =============> write your answer here
+// =============> write your answer here: 01 = 0 was added before 1 as padding to reach the required number of spaces of the expected output.
