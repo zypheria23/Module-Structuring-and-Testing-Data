@@ -2,6 +2,7 @@
 //  =============> write your prediction here
 // A: The semi-colon after 'return' ends the expression of the function, which cuts off evaluating the sum of inputs a & b
 
+// === original code ==
 // function sum(a, b) {
 //  return;
 //  a + b;
